@@ -5,7 +5,7 @@ import ModalComponent from "../utils/modalComponent";
 
 export default function TextAreaComponent() {
   //DATA STATES
-  const [textBoxText, setTextBoxtext] = useState("");
+  const [textBoxText, settextBoxtext] = useState("");
   const [showText, setshowText] = useState("");
   const [wordMeaningArr, setwordMeaningArr] = useState([]);
 
@@ -15,7 +15,7 @@ export default function TextAreaComponent() {
 
   //Get the content from textarea,
   function handleTextChange(e) {
-    setTextBoxtext(e.target.value);
+    settextBoxtext(e.target.value);
   }
 
   //Save content to show
